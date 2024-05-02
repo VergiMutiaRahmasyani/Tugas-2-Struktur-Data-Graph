@@ -11,3 +11,7 @@ class Peta:
             self.daftarKota[kota] = []
             return True
         return False
+
+    def printKota(self):
+        for kota in self.daftarKota:
+            print(f"{kota} -- {self.daftarKota[kota]}")
